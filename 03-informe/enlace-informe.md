@@ -1,7 +1,7 @@
 # Informe del módulo
 
-- **Enlace a Google Docs (cualquier persona con el enlace puede ver):**
-- **Archivo subido:** `03-informe/informe.pdf`
+- **Enlace a Google Docs (cualquier persona con el enlace puede ver):** (PENDIENTE: subir el informe a Google Docs → Compartir → "Cualquier persona con el enlace" → pegar acá)
+- **Archivo subido:** `03-informe/informe.pdf` (fuente editable: `03-informe/informe.html`)
 
 ## Estructura obligatoria del informe (1–2 páginas)
 1. **Resumen ejecutivo** (máximo 5 líneas)

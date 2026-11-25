@@ -1,0 +1,50 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Informe – Matriz de riesgos laborales</title>
+<style>
+@page { size: A4; margin: 18mm 18mm 18mm 18mm; @bottom-center { content: "Página " counter(page) " de " counter(pages); font: 9pt Arial; color:#555 } }
+@page :first { @bottom-center { content: none } }
+body { font: 10.5pt/1.4 Arial, sans-serif; color:#222 }
+.portada { height: 240mm; display:flex; flex-direction:column; justify-content:center; text-align:center; page-break-after: always }
+.portada h1 { font-size: 24pt; color:#2e5e3e; margin:0 0 6mm }
+h2 { color:#2e5e3e; font-size: 13pt; border-bottom: 1.5px solid #2e5e3e; padding-bottom:1mm; margin: 5mm 0 2mm }
+table { border-collapse: collapse; width:100%; font-size: 9pt; margin: 2mm 0 }
+th { background:#2e5e3e; color:#fff; text-align:left }
+th, td { border:1px solid #bbb; padding: 1.2mm 2mm }
+tr.alto td:last-child { background:#f4b6b6 } tr.medio td:last-child { background:#fbe7a1 }
+.fig { text-align:center; font-size: 9pt; color:#555 }
+a { color:#1a4f8b; word-break: break-all }
+ul, ol { margin: 1mm 0 }
+</style></head><body>
+<section class="portada">
+<p>Instituto Alfa · Examen final – Informática aplicada a los negocios</p>
+<h1>Matriz de riesgos laborales de la planta</h1>
+<p><b>Caso:</b> Yerbatera Tres Fronteras S.R.L. – lanzamiento de yerba mate orgánica premium a Asunción</p>
+<p><b>Alumna:</b> SOSA, Camila Soledad<br><b>Tecnicatura:</b> Seguridad e Higiene<br><b>Turno:</b> Intensivo<br><b>Fecha:</b> 25/11/2026</p>
+</section>
+
+<h2>1. Resumen ejecutivo</h2>
+<p>Se evaluaron 12 riesgos en los 5 procesos de la planta (12 operarios). 3 son de nivel <b>alto</b>, 7 medio y 2 bajo. Los críticos son la hipoacusia por ruido y el polvo orgánico en molienda, y el incendio en el secado. Con 4 medidas de corto plazo (detección de incendio, medición de ruido, resguardos, EPP con constancia) la planta puede sostener el ritmo de 10.000 paquetes por mes cumpliendo la Ley 19.587.</p>
+
+<h2>2. Contexto investigado</h2>
+<ul>
+<li><b>Normativa:</b> la Ley 19.587 obliga al empleador a proveer EPP y prevenir accidentes; el Decreto 351/79 la reglamenta (ruido, carga térmica, incendio, EPP); la Ley 24.557 exige ART y plan de prevención. Fuentes: <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/17612/norma.htm">Ley 19.587</a>, <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/30000-34999/32030/texact.htm">Dec. 351/79</a>, <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/27971/texact.htm">Ley 24.557</a>.</li>
+<li><b>Peligros del rubro:</b> un incendio en un secadero de Misiones (20/11/2026) destruyó ~30 t de hoja verde (<a href="https://www.stopenlinea.com.ar/noticias/2026/11/20/101949-un-incendio-arraso-con-unas-30-toneladas-de-yerba-mate-y-movilizo-a-bomberos-de-cuatro-localidades">StopEnLínea</a>); el polvo orgánico fino es inflamable (<a href="https://eproic.cl/blog/el-riesgo-de-los-polvos-organicos-inflamables">Eproic</a>); el ruido se mide con la <a href="https://www.argentina.gob.ar/normativa/nacional/norma-193617/texto">Res. SRT 85/2012</a>.</li>
+<li><b>EPP:</b> su entrega se documenta con la constancia de la <a href="https://www.argentina.gob.ar/srt/prevencion/epp">Res. SRT 299/2011</a>.</li>
+</ul>
+
+<h2>3. Desarrollo del módulo</h2>
+<p>Cada riesgo se valoró con <b>Nivel = Probabilidad (1–5) × Gravedad (1–5)</b>: alto ≥ 15, medio 8–14, bajo ≤ 7. Tabla de riesgos prioritarios (nivel ≥ 12), extraída de la hoja "Matriz de riesgos":</p>
+<table><tr><th>Proceso</th><th>Riesgo</th><th>P</th><th>G</th><th>Nivel</th><th>Clasif.</th></tr><tr class='alto'><td>Molienda</td><td>Hipoacusia (pérdida auditiva)</td><td>4</td><td>4</td><td><b>16</b></td><td>Alto</td></tr><tr class='alto'><td>Secado</td><td>Incendio</td><td>3</td><td>5</td><td><b>15</b></td><td>Alto</td></tr><tr class='alto'><td>Molienda</td><td>Afección respiratoria / explosión de polvo</td><td>3</td><td>5</td><td><b>15</b></td><td>Alto</td></tr><tr class='medio'><td>Recepción de hoja verde</td><td>Lesión lumbar por sobreesfuerzo</td><td>4</td><td>3</td><td><b>12</b></td><td>Medio</td></tr><tr class='medio'><td>Secado</td><td>Quemaduras / estrés térmico</td><td>4</td><td>3</td><td><b>12</b></td><td>Medio</td></tr></table>
+<div class="fig"><svg viewBox="0 0 460 210" width="420"><line x1="50" y1="180" x2="440" y2="180" stroke="#333"/><rect x="60" y="115.71428571428572" width="90" height="64.28571428571428" fill="#c0392b"/><text x="105.0" y="109.71428571428572" text-anchor="middle" font-size="14" font-weight="bold">3</text><text x="105.0" y="198" text-anchor="middle" font-size="13">Alto</text><rect x="190" y="30.0" width="90" height="150.0" fill="#d4a017"/><text x="235.0" y="24.0" text-anchor="middle" font-size="14" font-weight="bold">7</text><text x="235.0" y="198" text-anchor="middle" font-size="13">Medio</text><rect x="320" y="137.14285714285714" width="90" height="42.857142857142854" fill="#2e7d32"/><text x="365.0" y="131.14285714285714" text-anchor="middle" font-size="14" font-weight="bold">2</text><text x="365.0" y="198" text-anchor="middle" font-size="13">Bajo</text></svg><br>Gráfico 1 – Riesgos por nivel (hoja "Matriz de riesgos", función CONTAR.SI)</div>
+<p>La hoja "EPP" calcula 53 elementos para los 12 operarios (operarios × unidades por puesto). La hoja "Plan de acción" ordena 8 medidas: 4 de corto, 3 de mediano y 1 de largo plazo.</p>
+
+<h2>4. Recomendación final</h2>
+<ol>
+<li><b>Antes del primer envío (0–30 días):</b> detección de temperatura y extintores en la secanza, medición de ruido y protectores auditivos, resguardos y parada de emergencia en molinos, y entrega de EPP con constancia Res. 299/11.</li>
+<li><b>En los 90 días del lanzamiento:</b> aspiración de polvo en molienda, demarcación de playa de camiones y capacitación en manejo de cargas.</li>
+<li><b>Largo plazo:</b> encerramiento acústico y carga paletizada del camión.</li>
+</ol>
+<p>Con estas medidas el lanzamiento es viable desde el punto de vista de higiene y seguridad; sin las de corto plazo no se recomienda aumentar la producción.</p>
+
+<h2>5. Uso de IA</h2>
+<p>Herramienta: Claude (Claude Code). Se le pidió buscar normativa y fuentes, redactar la síntesis, armar la planilla y este informe. Se verificaron los enlaces de normativa en fuentes oficiales (InfoLEG, argentina.gob.ar) y quedaron marcados como [REVISAR] la explosividad específica del polvo de yerba y el nivel real de ruido.</p>
+</body></html>
