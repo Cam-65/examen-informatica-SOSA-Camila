@@ -1,8 +1,7 @@
 # Datos del estudiante
 
-- **Apellido y nombre:**
-- GALVAN, HUGO
-- **Tecnicatura:** (Higiene y Seguridad / Comercio Exterior / Marketing Digital / Seguros / Administración de Empresas)
-- **Cohorte / turno:**
-- **Fecha:**
-- **Consigna que desarrollo:** `consignas/` + nombre del archivo
+- **Apellido y nombre:** SOSA, Camila Soledad
+- **Tecnicatura:** Seguridad e Higiene (Higiene y Seguridad)
+- **Cohorte / turno:** Intensivo
+- **Fecha:** 25/11/2026
+- **Consigna que desarrollo:** `consignas/higiene-seguridad.md`
